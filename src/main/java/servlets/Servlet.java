@@ -38,7 +38,7 @@ public class Servlet extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet Servlet</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.prln("<body>");
             out.println("<h1>Nombre: " + request.getParameter("NombrePersona")+ "</h1>");
             out.println("<h1>Apellido: " + request.getParameter("ApellidoPersona")+ "</h1>");
             out.println("</body>");
